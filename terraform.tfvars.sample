@@ -1,0 +1,14 @@
+# Rename: terraform.tfvars.sample → terraform.tfvars
+
+# AWSのアクセスキー
+aws_access_key = "AKIA_____________________"
+aws_secret_key = "_______________________________"
+
+# 各種リソースの名前のprefix
+prefix = "EC2_auto_start_stop"
+
+# リージョンを東京に設定
+region = "ap-northeast-1"
+
+# Lambda用roleのarn
+iam_for_lambda_arn = "arn____________"
