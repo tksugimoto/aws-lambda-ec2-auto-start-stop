@@ -1,4 +1,3 @@
-
 variable "prefix" {}
 
 # 実行roleのarn
@@ -12,9 +11,10 @@ variable "target_instances" {}
 
 # スケジュール設定
 variable "schedule_name" {}
+
 variable "schedule_expression" {}
 
 # 休みの追加（半角スペース[ ]区切り）
 variable "additional_holidays" {
-	default = ""
+  default = ""
 }
