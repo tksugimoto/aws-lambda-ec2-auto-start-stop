@@ -10,7 +10,7 @@ variable "name" {}
 variable "target_instances" {}
 
 # スケジュール設定
-variable "schedule_name" {}
+variable "schedule_description" {}
 
 variable "schedule_expression" {}
 
