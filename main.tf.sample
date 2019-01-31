@@ -7,7 +7,7 @@ module "ec2_auto_stop-before_weekend" {
   name             = "stop_weekend"
   target_instances = "i-xxxxxxxxxxxxxxxxx, i-yyyyyyyyyyyyyyyyy"
 
-  schedule_description = "every_day_23-55am_JST"
+  schedule_description = "every day 23:55 JST"
   schedule_expression  = "cron(55 14 * * ? *)"
 
   # 祝日追加
